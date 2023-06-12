@@ -1,0 +1,7 @@
+<p>directives works!</p>
+
+<h1 [ngClass]="{'red-text': isAdmin}">Bonjour !</h1>
+
+<button>View</button>
+<button *ngIf="isAdmin">Edit</button>
+<button (click)="changeAdmin()">Toggle isAdmin</button>
